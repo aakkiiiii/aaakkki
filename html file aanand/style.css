@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-box{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(92, 193, 178, 1.0);
+    border-radius: 10px;
+    text-align: left;
+    box-shadow:
+            0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+    padding: 20px 0;
+}
+
+.big-circle{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+.small-circle{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    border-radius: 50px;
+    top: -5px;
+    left: -5px;
+    background-image: url("profile-image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.form1{
+    padding-top: 70px;
+    padding-left: 30px;
+    color: #34568B;
+}
+#ip1 {
+    border-radius: 25px;
+    border: 2px solid; 
+    background: #6B5B95; 
+    box-shadow:
+             0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+#ip2{
+    padding-left: 125px;
+    color: #FF6F61 ;
+}
